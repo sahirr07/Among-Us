@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+    <title>AmongUS : Interactive Video Course</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/icon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .video-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            background: #333;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .quiz-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+            background: #f8f9fa;
+            border-radius: 10px;
+            position: relative;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .quiz-container h3 {
+            color: #fb873f;
+            margin-bottom: 20px;
+        }
+
+        .quiz-option {
+            background: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .quiz-option:hover {
+            background: #f0f0f0;
+        }
+
+        .quiz-submit {
+            background: #fb873f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .quiz-submit:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/icon.png" alt="" height="50px">Among<span
+                style="color: #fb873f;">Us</span></p>
+    </a>
+    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link active">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="courses.html" class="nav-item nav-link">Courses</a>
+            <a href="team.html" class="nav-item nav-link">Our Team</a>
+                   
+                </div>
+            </div>
+            <a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>
+            <a href="#" class="nav-item nav-link">
+                <div id="google_translate_element"></div>
+            </a>
+        </div>
+    </div>
+</nav>
+<!-- Navbar End -->
+
+    <!-- Course Detail Start -->
+    <div class="row justify-content-center text-center align-items-center" style="max-width: 100%; margin: 0 auto; padding: 20px;margin-top: 10vh;">
+        <div class="col-3 align-middle">
+            <button style="width: 80px; height: 80px; background: rgba(0, 0, 0, 0.7); color: white; border: none; border-radius: 50%; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-backward align-middle"></i>
+            </button>
+        </div>
+        <div class="col-6">
+            <div class="quiz-container">
+                <h3>What is the capital of France?</h3>
+                <div class="quiz-option">Berlin</div>
+                <div class="quiz-option">Madrid</div>
+                <div class="quiz-option">Paris</div>
+                <div class="quiz-option">Rome</div>
+                <button class="quiz-submit">Submit</button>
+            </div>
+        </div>
+        <div class="col-3">
+            <button style="width: 80px; height: 80px; background: rgba(0, 0, 0, 0.7); color: white; border: none; border-radius: 50%; font-size: 24px; cursor: pointer;">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Course Detail End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        document.querySelector('.prev').addEventListener('click', function() {
+            // Handle previous video logic here
+        });
+
+        document.querySelector('.next').addEventListener('click', function() {
+            // Handle next video logic here
+        });
+    </script>
+</body>
+
+</html>
